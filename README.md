@@ -51,3 +51,14 @@
 9. Скопировать все содержимое из `firebaseConfig` и нажать "Continue to console"
 10. Все содержимое из `firebaseConfig` положить в firebase.json в корне приложения
 11. Готово😼
+
+Ключ будет выглядеть как-то так:
+```json
+{
+  "apiKey": "AIza....",                             
+  "authDomain": "YOUR_APP.firebaseapp.com",         
+  "databaseURL": "https://YOUR_APP.firebaseio.com", 
+  "storageBucket": "YOUR_APP.appspot.com",          
+  "messagingSenderId": "123456789"                  
+}
+```
