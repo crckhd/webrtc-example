@@ -2,9 +2,19 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/101672047/168921679-a0d9f179-bc72-4d28-bd4e-6f1bcadd1868.png"/></div>
 <br>
 
-Приложение, которое использует технологию WebRTC для примера в статье на [vc](https://vc.ru)
+<div align="center" style="display: flex">
+  <img src="https://img.shields.io/github/issues/crckhd/webrtc-example?label=issues&logo=webrtc&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/crckhd/webrtc-example?label=L.%20commit&logo=github&style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/crckhd/webrtc-example?logo=typescript&style=for-the-badge">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/crckhd/webrtc-example?label=%E2%9C%A8&style=for-the-badge">
+</div>
 
-## Использумый технологический стек
+<br>
+
+
+<div align="center"><strong>Приложение, которое использует технологию WebRTC для примера в статье на <a href="https://vc.ru">vc</a></strong></div>
+
+## Использумый технологический стек 🔨
 
 **Пакетный менеджер**: Pnpm;
 
@@ -16,7 +26,7 @@
 
 **Бандлер**: Vite;
 
-# Сборка
+# Сборка 📦
 
 Для сборки всего приложения используется `vite`, у него есть встроенные команды в package.json, которые я не стал менять:
 
@@ -26,10 +36,10 @@
 
 > Также для сборки вам потребуется ключ для Firebase, как его получить можно узнать ниже
 
-## Получение ключа для Firebase
+## Получение ключа для Firebase 🔥
 Так как приложение тестовое, то я не стал делать БД закрытой для записи и чтения, поэтому каждому пользователю, кто захочет протестировать данное приложение нужно создать свой ключ в Firebase. Сделать это достаточно легко:
 
-**По шагам**
+**По шагам 🐈**
 1. Перейти на сайт [firebase](https://firebase.google.com)
 2. Нажать Go to Console вверху
 3. Нажать большую кнопку "Create a project"
