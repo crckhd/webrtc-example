@@ -4,21 +4,23 @@ import "bootstrap";
 
 class App {
 
-	// Объявим типы для firebase и signal
-	public firebase: Firebase;
-	public signal: Signal;
-
 	constructor() {
 
 		// Инициализируем классы для сигналинга
-		this.firebase = new Firebase;
-		this.signal = new Signal;
+		Firebase.init();
+		Signal.init();
 	}
 
 	render = class {
 
 		// Селектор для корня приложения
-		private _rootSelector = '#root';
+		private readonly SELECTORS = {
+			root: '#app',
+			localVideo: '#path_local',
+			remoteVideo: '#path_remote',
+			callButton: '#path_call',
+			answerButton: '#path_answer',
+		};
 
 	}
 
